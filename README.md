@@ -46,12 +46,37 @@ The project aims to provide insights into financial news headlines and perform q
    - Sentiment distribution
    - Top words in headlines
    - Hourly publication frequency
+  
 
+## Project Structure
+```
+financial-analysis-project/
+│
+├── notebook/
+│   ├── Task_1.ipynb
+│   ├── Task_2.ipynb
+│   ├── task_2_OOP.ipynb
+│
+├── src/
+│   ├── raw_analyst_ratings.csv
+│   └── yfinance_data
+|       └── AAPL_historical_data.csv
+|       └── AMZN_historical_data.csv
+|       └── GOOG_historical_data.csv
+|       └── META_historical_data.csv
+|       └── MSFT_historical_data.csv
+|       └── NVDA_historical_data.csv
+|       └── TSLA_historical_data.csv
+│
+├── README.md
+└── requirements.txt
+```
 ## Usage
 
 ```python
 # Import necessary libraries
-python pip install requirements.txt ```
+python -m pip install -r requirements.txt
+```
 
 ## Libraries Used
 
